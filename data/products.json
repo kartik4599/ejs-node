@@ -1,16 +1,1 @@
-[
-  {
-    "id": "4321",
-    "title": "A Book",
-    "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
-    "description": "This is an awesome book!",
-    "price": "19"
-  },
-  {
-    "title": "Beers",
-    "imageUrl": "https://unsplash.com/photos/8XRLDrFT1DQ",
-    "description": "asawd",
-    "price": "340",
-    "id": "0.09543892493578521"
-  }
-]
+[{"id":"0.30254597018212115","title":"Book","imageUrl":"https://images.unsplash.com/photo-1673878034060-2d97a101563a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60","description":"stack of books","price":"500"}]
