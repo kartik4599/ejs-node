@@ -36,8 +36,7 @@ exports.getEditProduct = (req, res, next) => {
   if (!prodId) return res.redirect("/");
 
   // Product.findByPk(prodId)
-  req.user
-    .getProducts({ where: { id: prodId } })
+  req.user.getProducts({where:{id:prodId}})
     .then((data) => {
       console.log(data);
       res.render("admin/edit-product", {
@@ -76,8 +75,7 @@ exports.postEditProduct = (req, res, next) => {
 };
 
 exports.getProducts = (req, res, next) => {
-  req.user
-    .getProducts()
+  req.user.getProducts()
     .then((data) => {
       res.render("admin/products", {
         prods: data,
